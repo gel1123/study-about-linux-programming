@@ -1,3 +1,11 @@
+/**
+ * @file cat1.0.1.c
+ * @brief repoduce "cat" （標準入力モードの実装のために試行錯誤していた）
+ * @author gel1123
+ * @date 2020-10-31
+ */
+
+
 #include <stdio.h>
 #include <stdint.h>
 #include <stdlib.h>

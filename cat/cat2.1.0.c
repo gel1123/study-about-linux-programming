@@ -1,3 +1,11 @@
+/**
+ * @file cat2.1.0.c
+ * @brief repoduce "cat" (stdlib version +stdin mode)
+ * @author gel1123
+ * @date 2020-10-31
+ */
+
+
 #include <stdio.h>
 #include <stdlib.h>
 

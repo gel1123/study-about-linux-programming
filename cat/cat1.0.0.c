@@ -1,3 +1,11 @@
+/**
+ * @file cat1.0.0.c
+ * @brief repoduce "cat" (syscall version. none stdin)
+ * @author gel1123
+ * @date 2020-10-31
+ */
+
+
 #include <stdio.h>
 #include <stdint.h>
 #include <stdlib.h>
