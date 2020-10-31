@@ -1,6 +1,6 @@
 /**
- * @file wc1.0.0.c
- * @brief repoduce "cat" on fread & fwrite *incomplete
+ * @file cat3.0.0.c
+ * @brief repoduce "cat" on fread & fwrite
  * @author gel1123
  * @date 2020-10-31
  */
@@ -16,7 +16,7 @@ main(int argc, char *argv[])
 	if (argc < 2) {
 		do_cat(stdin);
 	} else {
-		for (int i=i; i<argc; i++) {
+		for (int i=1; i<argc; i++) {
 			FILE *f = fopen(argv[i], "r");
 			if (!f) exit(1);
 			do_cat(f);
